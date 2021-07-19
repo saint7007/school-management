@@ -8,14 +8,14 @@ Design and implement simple school registration system
 - A course has 50 students maximum
 - A student can register to 5 course maximum
 
-##Tech stack
+## Tech stack
 So this repository built with love with following tech stack
-• Java
-• Maven
-• Spring Boot
-• Docker (docker-compose)
-• JUnit
-• MySQL
+- Java
+- Maven
+- Spring Boot
+- Docker (docker-compose)
+- JUnit
+- MySQL
 
 All the configuration is done in the **docker-compose.yaml** file.
 
@@ -39,7 +39,7 @@ curl --location --request POST 'http://localhost:8080/student/insertOne' \
 }'
 ```
 
-There is a postman collection in folder, **postman-collection** it contains all the request and payloads
+There is a postman collection in folder, **postman-collection** it contains all the request and payloads.
 To import these in postman, use these steps https://learning.postman.com/docs/getting-started/importing-and-exporting-data/
 
 ## How to test the database?
